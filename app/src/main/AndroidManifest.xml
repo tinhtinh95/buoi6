@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.binc.buoi6">
+    package="bkdn.cntt.demointent">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+        android:required="true" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".intent_object.MainActivity1">
+        <!--<activity android:name=".intent.MainActivity1">-->
+        <!--<activity android:name=".bundle.MainActivity1">-->
+        <!--<activity android:name=".parcelable.MainActivity1">-->
+        <!--<activity android:name=".serializable.MainActivity1">-->
+        <activity android:name=".intent_implicit.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".intent_object.MainActivity2" />
+        <!--<activity android:name=".intent.MainActivity2"></activity>-->
+       <!-- <activity android:name=".bundle.MainActivity2"></activity>-->
+        <!--<activity android:name=".parcelable.MainActivity2"></activity>-->
+        <!--<activity android:name=".serializable.MainActivity2"></activity>-->
     </application>
 
 </manifest>

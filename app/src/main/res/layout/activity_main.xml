@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:text="Nhập số a: " />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edtA"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:text="Nhập số b: " />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edtB"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn phép tính ->"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/selector"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnChon"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="#116005"
+        android:textSize="20dp"
+        android:text="Kết quả: " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt"
+        android:id="@+id/txtKq"
+        />
+</LinearLayout>

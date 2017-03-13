@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gọi điện"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:background="@drawable/selector"
+            android:layout_margin="20dp"
+            android:id="@+id/btnCall"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhắn tin"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnMessage"
+            android:background="@drawable/selector"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi mail"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/selector"
+            android:textAllCaps="false"
+            android:id="@+id/btnMail" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnCamera"
+            android:background="@drawable/selector"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thư viện"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:id="@+id/btnGalery"
+            android:background="@drawable/selector"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgView"/>
+</LinearLayout>
